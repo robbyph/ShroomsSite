@@ -1,0 +1,37 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: whitesmoke;
+}
+
+h1 {
+    margin-top: 2.5%;
+    padding: 1em;
+    background-color: white;
+    margin-bottom: 0;
+}
+
+h2 {
+    padding: .7em;
+    text-align: center;
+    background-color: white;
+    margin: 0;
+}
+
+main {
+    background-color: whitesmoke;
+}
+
+#nav {
+    position: fixed;
+    margin-bottom: 4em;
+    top: 0;
+}
+
+img {
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
