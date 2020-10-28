@@ -27,13 +27,38 @@ main {
     top: 0;
 }
 
-img {
+header img {
     object-fit: cover;
 }
 
 .content {
     display: flex;
     justify-content: center;
+}
+
+figure {
+    position: absolute;
+    left: 25%;
+    margin: 5em;
+}
+
+figure img {
+    vertical-align: top;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+.news {
+    position: absolute;
+    left: 14%;
+    margin: 5em;
+    text-align: center;
+}
+
+.news p {
+    width: 40%;
 }
 
 ul {
