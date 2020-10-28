@@ -52,12 +52,12 @@ figure figcaption {
 
 .news {
     position: absolute;
-    left: 14%;
     margin: 5em;
     text-align: center;
 }
 
 .news p {
+    display: inline-block;
     width: 40%;
 }
 
